@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TLV320ADC101")(type "Legacy")(uri "${KIPRJMOD}/tlv320adc3101.lib")(options "")(descr ""))
+)
