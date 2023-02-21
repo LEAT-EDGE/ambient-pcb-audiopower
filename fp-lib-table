@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "DigiKey")(type "KiCad")(uri "${KIPRJMOD}/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name "QFN_drill0.3")(type "KiCad")(uri "${KIPRJMOD}/QFN_drill0.3.pretty")(options "")(descr ""))
+  (lib (name "Jack_3.5mm")(type "KiCad")(uri "${KIPRJMOD}/Jack_3.5mm.pretty")(options "")(descr ""))
 )

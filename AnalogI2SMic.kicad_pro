@@ -34,7 +34,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2,
+          "drill": 0.3,
           "height": 0.5,
           "width": 0.5
         },
@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|102060000|58522000|74deee4b-576c-4bb7-ab57-dbb9b959f3c5|204687de-9490-4fc4-8f62-fe392ba7f701",
+        "silk_edge_clearance|102060000|58522000|ffe81d57-c5c6-478a-89d5-f238c3a3eeef|27397374-0de0-464b-9b7e-8b90669a91f9",
+        "silk_edge_clearance|103560000|58522000|74deee4b-576c-4bb7-ab57-dbb9b959f3c5|2cafb736-80ac-42cb-b416-95251c7ca622",
+        "silk_edge_clearance|103560000|58522000|74deee4b-576c-4bb7-ab57-dbb9b959f3c5|e49f3347-029c-4a89-bb69-0afec467854f",
+        "silk_edge_clearance|103560000|58522000|ffe81d57-c5c6-478a-89d5-f238c3a3eeef|1a7b65bc-7ffa-4082-88d5-a3faaa3db447",
+        "silk_edge_clearance|103560000|58522000|ffe81d57-c5c6-478a-89d5-f238c3a3eeef|3f86b45e-2d73-4d21-aa27-65eb03d90cb0",
+        "silk_edge_clearance|94560000|58522000|a0680f83-8528-4dd9-bda2-12da57ead789|5c194498-304a-45bb-b333-2059930c22ef",
+        "silk_edge_clearance|94560000|58522000|e7e643c8-8133-49d6-a616-1925fb2c87d3|65fa6548-8d96-4376-8893-d37747b0bfba",
+        "silk_edge_clearance|96060000|58522000|a0680f83-8528-4dd9-bda2-12da57ead789|003eda8d-805a-4d63-8400-b159496ee5d4",
+        "silk_edge_clearance|96060000|58522000|a0680f83-8528-4dd9-bda2-12da57ead789|f5c65063-53fc-4901-800b-534781fd848d",
+        "silk_edge_clearance|96060000|58522000|e7e643c8-8133-49d6-a616-1925fb2c87d3|33a33fe4-5101-467d-8253-2388f0359c23",
+        "silk_edge_clearance|96060000|58522000|e7e643c8-8133-49d6-a616-1925fb2c87d3|40aad515-ee41-4ac4-83c0-33523f01aa33"
+      ],
       "meta": {
         "version": 2
       },
@@ -518,7 +531,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "pdf/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
