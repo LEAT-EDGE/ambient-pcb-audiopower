@@ -1375,7 +1375,7 @@
     (property "ki_description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)")
     (property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector")
     (path "/6699e56f-1b46-4f85-8551-cfabf8a8bedd")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole)
     (fp_text reference "J1" (at -5.461 -8.556) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e92e38d5-daf3-4b75-b8ad-4b169fa07882)
@@ -2527,7 +2527,7 @@
   )
   (gr_text "//piernov" (at 115.2144 28.3972) (layer "B.Mask") (tstamp 4ec1704f-2643-4680-a6cd-8d5256588311)
     (effects (font (face "Roboto") (size 0.8 0.8) (thickness 0.16) bold) (justify left bottom mirror))
-    (render_cache "//piernov" -0
+    (render_cache "//piernov" 0
       (polygon
         (pts
           (xy 115.103416 28.329978)          (xy 115.221629 28.329978)          (xy 114.926975 27.46106)          (xy 114.808761 27.46106)
@@ -2801,7 +2801,7 @@
   )
   (gr_text "AnalogI2SMic" (at 115.7986 29.3878) (layer "B.Mask") (tstamp afaeeded-b014-4dc3-afd8-523052ab283d)
     (effects (font (face "Roboto") (size 0.65 0.65) (thickness 0.13) bold) (justify left bottom mirror))
-    (render_cache "AnalogI2SMic" -0
+    (render_cache "AnalogI2SMic" 0
       (polygon
         (pts
           (xy 115.795424 29.2773)          (xy 115.653019 29.2773)          (xy 115.608408 29.143308)          (xy 115.373446 29.143308)
@@ -3315,7 +3315,7 @@
   )
   (gr_text "v0.2" (at 113.411 30.3276) (layer "B.Mask") (tstamp f034cf8e-02a1-4722-8b10-73a96e6c4fb3)
     (effects (font (face "Roboto") (size 0.65 0.65) (thickness 0.13) bold) (justify left bottom mirror))
-    (render_cache "v0.2" -0
+    (render_cache "v0.2" 0
       (polygon
         (pts
           (xy 113.180642 30.059453)          (xy 113.090785 29.733999)          (xy 112.956 29.733999)          (xy 113.119044 30.2171)
