@@ -5,4 +5,5 @@
   (lib (name "Jack_3.5mm")(type "KiCad")(uri "${KIPRJMOD}/Jack_3.5mm.pretty")(options "")(descr ""))
   (lib (name "SOT-23")(type "KiCad")(uri "${KIPRJMOD}/SOT-23.pretty")(options "")(descr ""))
   (lib (name "UDFN-4")(type "KiCad")(uri "${KIPRJMOD}/UDFN-4.pretty")(options "")(descr ""))
+  (lib (name "JLCPCB")(type "KiCad")(uri "${KIPRJMOD}/JLCPCB.pretty")(options "")(descr ""))
 )

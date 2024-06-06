@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|102060000|58522000|32f981cd-7274-4eb2-ba49-b97f6cab0b76|8c5f8b8b-f8e0-4f10-aba2-5ac5fc424fe0",
-        "silk_edge_clearance|103560000|58522000|32f981cd-7274-4eb2-ba49-b97f6cab0b76|37b971c2-2d04-4096-beda-6a18eb446d90",
-        "silk_edge_clearance|103560000|58522000|32f981cd-7274-4eb2-ba49-b97f6cab0b76|43829e9e-e972-491e-8e15-f82849bcbe18",
-        "silk_edge_clearance|94560000|58522000|796b9a10-680b-4e63-86b8-bf26c0137027|6dfc8086-9bbf-46c2-bc17-fd06c3589c84",
-        "silk_edge_clearance|96060000|58522000|796b9a10-680b-4e63-86b8-bf26c0137027|3f20d0c0-8a64-4a0e-af4e-9e1fc4c649b2",
-        "silk_edge_clearance|96060000|58522000|796b9a10-680b-4e63-86b8-bf26c0137027|4c2f0ffc-7383-40d3-99ba-c4399cb34b66"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -535,7 +528,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "",
+      "pos_files": "bom/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -594,11 +587,29 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
