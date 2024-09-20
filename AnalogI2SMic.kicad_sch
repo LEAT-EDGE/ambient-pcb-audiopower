@@ -11,6 +11,108 @@
 		(company "//piernov")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack3_SwitchTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2620,6 +2722,12 @@
 		(uuid "0aaf8569-b080-456e-b164-b232b3629264")
 	)
 	(junction
+		(at 143.51 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca4ac60-9880-4c59-91c6-48b516d2292d")
+	)
+	(junction
 		(at 168.91 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2632,16 +2740,22 @@
 		(uuid "14fbb7f9-fbd4-4442-af52-56a560bb1c81")
 	)
 	(junction
-		(at 148.59 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18a6d5d3-81b9-40a7-a968-7ff41a57b2b4")
-	)
-	(junction
 		(at 132.08 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "193fc8c7-d0f1-4f4c-aeb2-37262344e504")
+	)
+	(junction
+		(at 148.59 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e4b5739-1550-4341-93bf-28c0e08e48a6")
+	)
+	(junction
+		(at 137.16 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f341cc-028b-4c6b-9833-0296a2ab7585")
 	)
 	(junction
 		(at 265.43 140.97)
@@ -2698,6 +2812,12 @@
 		(uuid "71b0d8eb-cad1-4f0e-a19c-823e6425d57a")
 	)
 	(junction
+		(at 137.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "733cf903-82a1-4cfd-bd55-8b6661afb3cb")
+	)
+	(junction
 		(at 67.31 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2720,6 +2840,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cf47535-d2da-4b09-ac7c-da6d0fd6b030")
+	)
+	(junction
+		(at 148.59 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7de9b0e6-05ca-4751-96b1-e59bacda16a2")
 	)
 	(junction
 		(at 266.7 144.78)
@@ -2806,20 +2932,8 @@
 		(uuid "fbe77afd-ce79-488f-af12-2a3c029d75fe")
 	)
 	(no_connect
-		(at 123.19 114.3)
-		(uuid "2e2a1b3c-d136-4d1e-9d25-60b6cc36bd21")
-	)
-	(no_connect
 		(at 45.72 120.65)
 		(uuid "302a596c-2eaf-4a91-85f7-39ec7f64dae0")
-	)
-	(no_connect
-		(at 139.7 100.33)
-		(uuid "4393a278-0040-4479-a75f-a2f0895359a5")
-	)
-	(no_connect
-		(at 99.06 100.33)
-		(uuid "d179f679-4b11-4cd9-9989-093dc37e97a7")
 	)
 	(no_connect
 		(at 45.72 115.57)
@@ -3007,16 +3121,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 63.5) (xy 154.94 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221985eb-95ec-45f2-8a20-05400f37fa1c")
-	)
-	(wire
-		(pts
 			(xy 115.57 143.51) (xy 115.57 114.3)
 		)
 		(stroke
@@ -3067,6 +3171,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 63.5) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc1c5ff-7b20-41fd-b82e-8f12bb6c20ad")
+	)
+	(wire
+		(pts
 			(xy 172.72 80.01) (xy 172.72 82.55)
 		)
 		(stroke
@@ -3074,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "2e63d877-3c98-472c-966c-640547adf079")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301f8106-3242-4ca9-9582-907b539a0fb7")
 	)
 	(wire
 		(pts
@@ -3197,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 71.12) (xy 148.59 73.66)
+			(xy 143.51 71.12) (xy 143.51 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 73.66) (xy 152.4 73.66)
+			(xy 143.51 73.66) (xy 148.59 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3417,6 +3541,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd481f9-b9ec-4077-b84d-c2c8c66f4e50")
+	)
+	(wire
+		(pts
 			(xy 129.54 115.57) (xy 138.43 115.57)
 		)
 		(stroke
@@ -3424,6 +3558,16 @@
 			(type default)
 		)
 		(uuid "619a1c86-f04a-4eb4-8d9c-22ac8802fd8c")
+	)
+	(wire
+		(pts
+			(xy 146.05 50.8) (xy 146.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6200d973-25e4-4a67-8997-49fa3ecc3824")
 	)
 	(wire
 		(pts
@@ -3517,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 66.04) (xy 148.59 63.5)
+			(xy 143.51 66.04) (xy 143.51 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3657,6 +3801,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2bfc2e-3e4d-4d24-be77-f0e9286c49c9")
+	)
+	(wire
+		(pts
 			(xy 163.83 92.71) (xy 163.83 97.79)
 		)
 		(stroke
@@ -3697,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 57.15) (xy 146.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928e7926-7370-430a-b598-2e12d7d86d9b")
+	)
+	(wire
+		(pts
 			(xy 271.78 120.65) (xy 266.7 120.65)
 		)
 		(stroke
@@ -3727,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 148.59 63.5)
+			(xy 120.65 63.5) (xy 143.51 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3897,6 +4061,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 63.5) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6920767-1a67-404f-82f9-a68205da213d")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7630489-4c52-4101-ae89-2dd32f612088")
+	)
+	(wire
+		(pts
 			(xy 142.24 87.63) (xy 139.7 87.63)
 		)
 		(stroke
@@ -4024,6 +4208,16 @@
 			(type default)
 		)
 		(uuid "c8f0b428-a35d-43f4-a67a-90ba90a623de")
+	)
+	(wire
+		(pts
+			(xy 146.05 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c902580b-d7e0-4327-8621-ad0be94c6c21")
 	)
 	(wire
 		(pts
@@ -4157,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 154.94 66.04)
+			(xy 148.59 63.5) (xy 148.59 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4167,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 154.94 71.12)
+			(xy 148.59 73.66) (xy 148.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4337,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 154.94 73.66)
+			(xy 152.4 73.66) (xy 157.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4578,28 +4772,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape output)
-		(at 256.54 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "20bd7cdd-219a-48af-b266-a331bb366b08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.0053 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO1"
 		(shape input)
 		(at 256.54 43.18 0)
@@ -4732,8 +4904,8 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
-		(shape bidirectional)
+	(global_label "I2C_SCL"
+		(shape output)
 		(at 256.54 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4742,9 +4914,9 @@
 			)
 			(justify left)
 		)
-		(uuid "768d50af-3145-4942-bb45-c877315e7130")
+		(uuid "730fbd64-d777-41ef-b1b1-c284272605ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1771 40.64 0)
+			(at 267.0053 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,6 +4944,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 256.54 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93ec0e62-3b5e-4413-9fad-34e361cf437c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.1771 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5090,6 +5284,85 @@
 			(project "AnalogI2SMic"
 				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 146.05 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b61ffc-5f65-44ca-802b-c6280a9fa2f5")
+		(property "Reference" "C12"
+			(at 148.59 53.9813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 148.59 56.5213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7466753f-dcd5-467d-bbf6-756ca7cfee70")
+		)
+		(pin "2"
+			(uuid "f4271039-ec6d-4b1a-bd94-3e44bf9dbf83")
+		)
+		(instances
+			(project "AnalogI2SMic"
+				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5444,34 +5717,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 148.59 68.58 0)
+		(lib_id "Connector:TestPoint")
+		(at 99.06 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "23bca504-2c6a-4938-a85e-9340bc98c052")
-		(property "Reference" "C8"
-			(at 144.78 66.802 0)
+		(uuid "2330c83e-2859-47d3-bae8-dd5a45a84cfb")
+		(property "Reference" "TP1"
+			(at 95.758 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 143.002 71.12 0)
+		(property "Value" "TestPoint"
+			(at 95.758 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 148.59 68.58 0)
+		(property "Footprint" "TestPoint_Pad_D0.5mm:TestPoint_Pad_D0.5mm"
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5751,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 68.58 0)
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cee1daf1-f6d0-4046-94cd-1430f39d5984")
+		)
+		(instances
+			(project "AnalogI2SMic"
+				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23bca504-2c6a-4938-a85e-9340bc98c052")
+		(property "Reference" "C8"
+			(at 139.7 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 137.922 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 68.58 0)
+			(at 143.51 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5835,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 148.59 68.58 0)
+			(at 143.51 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6543,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 68.58 0)
+		(at 148.59 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6215,7 +6552,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f372958-b29c-4765-a0af-5c9e96adf68c")
 		(property "Reference" "C9"
-			(at 157.48 67.9513 0)
+			(at 151.13 67.9513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +6561,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 157.48 70.4913 0)
+			(at 151.13 70.4913 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6570,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 154.94 68.58 0)
+			(at 148.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 68.58 0)
+			(at 148.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 68.58 0)
+			(at 148.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6597,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 154.94 68.58 0)
+			(at 148.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,6 +7174,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7501277"
+			(at 208.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "d989041a-ca55-465c-949c-20dc8a7572e2")
 		)
@@ -7014,6 +7360,24 @@
 			)
 		)
 		(property "LCSC" "C692542"
+			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "+90"
+			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "-0.127,2.032"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -7340,7 +7704,7 @@
 				)
 			)
 		)
-		(property "Value" "2A/50mOhm"
+		(property "Value" "~"
 			(at 260.3119 118.11 90)
 			(effects
 				(font
@@ -7375,7 +7739,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1002"
+		(property "LCSC" "C2649307"
 			(at 260.35 120.65 90)
 			(effects
 				(font
@@ -7394,6 +7758,72 @@
 			(project "AnalogI2SMic"
 				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c791c34-c5e2-46af-95af-1fac32f7f681")
+		(property "Reference" "TP3"
+			(at 126.746 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 126.746 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint_Pad_D0.5mm:TestPoint_Pad_D0.5mm"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac03af4c-1d18-4b38-8bb1-a527991af173")
+		)
+		(instances
+			(project ""
+				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8989,6 +9419,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d778eec2-5896-4e91-b39e-57db7d4958ae")
+		(property "Reference" "TP2"
+			(at 141.224 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 136.906 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint_Pad_D0.5mm:TestPoint_Pad_D0.5mm"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "732a875d-5f29-49ac-a913-400c92671eaf")
+		)
+		(instances
+			(project ""
+				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 255.27 144.78 0)
 		(unit 1)
@@ -9051,6 +9547,85 @@
 			(project "AnalogI2SMic"
 				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e52fe038-5129-403e-968b-92c1c02d2ba7")
+		(property "Reference" "C13"
+			(at 160.02 67.9513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 160.02 70.4913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ffd3d5-7ad1-4fe5-a1e9-ed31ee9683e0")
+		)
+		(pin "2"
+			(uuid "2e0e5c4d-409b-44a3-9dec-e575c602093e")
+		)
+		(instances
+			(project "AnalogI2SMic"
+				(path "/a98918d9-719c-4509-b4b6-df751c41cd55"
+					(reference "C13")
 					(unit 1)
 				)
 			)

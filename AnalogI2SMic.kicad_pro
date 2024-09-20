@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|101827600|55111400|446d1ba2-4630-4762-9c91-98d93560cae5|9c56a981-2463-4120-b1e9-d93b2af88a8d",
+        "silk_edge_clearance|103327600|55111400|446d1ba2-4630-4762-9c91-98d93560cae5|0ce9f01e-aaba-4167-b5a7-36dba81dced1",
+        "silk_edge_clearance|103327600|55111400|446d1ba2-4630-4762-9c91-98d93560cae5|bafdebba-0605-4241-87c5-e9450baa89a1",
+        "silk_edge_clearance|94327600|55111400|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|653e3fa2-61d4-4b1e-9b63-6b6e28fce378",
+        "silk_edge_clearance|95827600|55111400|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|7bfc029f-98eb-4d23-a97a-ed4c7bb58e28",
+        "silk_edge_clearance|95827600|55111400|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|e692f5f7-aa55-49f4-b777-0219649a3330"
+      ],
       "meta": {
         "version": 2
       },
@@ -133,7 +140,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -520,6 +527,10 @@
       {
         "netclass": "GND",
         "pattern": "GND*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*FB1-Pad1*"
       }
     ]
   },
@@ -528,8 +539,8 @@
       "gencad": "AnalogI2SMic.cad",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "gerbers/",
+      "pos_files": "bom/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
