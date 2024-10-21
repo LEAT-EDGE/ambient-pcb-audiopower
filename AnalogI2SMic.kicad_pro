@@ -59,12 +59,13 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|101827600|55111400|446d1ba2-4630-4762-9c91-98d93560cae5|9c56a981-2463-4120-b1e9-d93b2af88a8d",
-        "silk_edge_clearance|103327600|55111400|446d1ba2-4630-4762-9c91-98d93560cae5|0ce9f01e-aaba-4167-b5a7-36dba81dced1",
-        "silk_edge_clearance|103327600|55111400|446d1ba2-4630-4762-9c91-98d93560cae5|bafdebba-0605-4241-87c5-e9450baa89a1",
-        "silk_edge_clearance|94327600|55111400|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|653e3fa2-61d4-4b1e-9b63-6b6e28fce378",
-        "silk_edge_clearance|95827600|55111400|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|7bfc029f-98eb-4d23-a97a-ed4c7bb58e28",
-        "silk_edge_clearance|95827600|55111400|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|e692f5f7-aa55-49f4-b777-0219649a3330"
+        "silk_edge_clearance|101846000|57760000|446d1ba2-4630-4762-9c91-98d93560cae5|9c56a981-2463-4120-b1e9-d93b2af88a8d",
+        "silk_edge_clearance|103346000|57760000|446d1ba2-4630-4762-9c91-98d93560cae5|0ce9f01e-aaba-4167-b5a7-36dba81dced1",
+        "silk_edge_clearance|103346000|57760000|446d1ba2-4630-4762-9c91-98d93560cae5|bafdebba-0605-4241-87c5-e9450baa89a1",
+        "silk_edge_clearance|94346000|57760000|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|653e3fa2-61d4-4b1e-9b63-6b6e28fce378",
+        "silk_edge_clearance|95846000|57760000|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|7bfc029f-98eb-4d23-a97a-ed4c7bb58e28",
+        "silk_edge_clearance|95846000|57760000|5ce317ba-2c9d-4d42-a54b-2c9fd909619f|e692f5f7-aa55-49f4-b777-0219649a3330",
+        "starved_thermal|110363000|33142000|93aa5883-46d0-44af-8fd2-2c073a181060|735c6de6-260c-40e1-87d7-140058bc9248|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -540,7 +541,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "bom/",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
