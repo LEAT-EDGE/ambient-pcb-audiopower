@@ -2687,12 +2687,38 @@
 				)
 			)
 		)
-		(property "LCSC" "C2997490"
+		(property "LCSC" "C79114"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4da436bf-d0a5-46e7-a659-c75a73fbec71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCBis" "C2997490"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f77eeaa6-be12-42e1-8769-8ef3dd63c0ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de7428a1-07b2-4954-97f6-2cd902473e08")
 			(effects
 				(font
 					(size 1 1)
@@ -6979,12 +7005,38 @@
 				)
 			)
 		)
-		(property "LCSC" "C2997490"
+		(property "LCSC" "C79114"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7e556d7-b6ab-495a-94e7-a65c4f1ab68a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCBis" "C2997490"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2bc16a6-f313-40f2-b532-d8d1ff8877ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "745540b0-3568-44ea-b52b-ab4aabf51515")
 			(effects
 				(font
 					(size 1 1)

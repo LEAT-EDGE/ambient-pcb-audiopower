@@ -6075,7 +6075,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2997490"
+		(property "LCSCBis" "C2997490"
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C79114"
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
 			(at 248.92 83.82 0)
 			(effects
 				(font
@@ -7270,7 +7288,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2997490"
+		(property "LCSCBis" "C2997490"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C79114"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
 			(at 226.06 83.82 0)
 			(effects
 				(font
