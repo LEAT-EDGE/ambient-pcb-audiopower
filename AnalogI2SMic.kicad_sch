@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "AnalogI2SMic")
-		(date "2024-10-21")
+		(date "2024-11-19")
 		(rev "0.4")
 		(company "//piernov")
 	)
@@ -6039,7 +6039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF/6.3V"
+		(property "Value" "470uF/6.3V"
 			(at 249.682 86.614 0)
 			(effects
 				(font
@@ -7252,7 +7252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF/6.3V"
+		(property "Value" "470uF/6.3V"
 			(at 228.6 84.5438 0)
 			(effects
 				(font
