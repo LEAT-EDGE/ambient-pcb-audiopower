@@ -3396,6 +3396,12 @@
 		(uuid "d1b77424-60c5-4977-9227-8b198a597f38")
 	)
 	(junction
+		(at 160.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2272a60-46c6-4a6c-825d-c260bff0a744")
+	)
+	(junction
 		(at 194.31 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3517,6 +3523,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 48.26) (xy 160.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03eeb68f-534c-4630-a295-40c51f92a416")
+	)
+	(wire
+		(pts
 			(xy 97.79 127) (xy 100.33 127)
 		)
 		(stroke
@@ -3524,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "03fc2b4a-b187-41a3-b2d9-7b414513665b")
+	)
+	(wire
+		(pts
+			(xy 157.48 48.26) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0429a59d-b007-491b-94c7-fafc0949ff3f")
 	)
 	(wire
 		(pts
@@ -4807,7 +4833,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 160.02 53.34)
+			(xy 160.02 41.91) (xy 160.02 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4834,6 +4860,16 @@
 			(type default)
 		)
 		(uuid "941717a1-5031-43d2-b1e0-522e77b6957e")
+	)
+	(wire
+		(pts
+			(xy 147.32 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954470f6-825a-4272-a065-ac42ace61982")
 	)
 	(wire
 		(pts
@@ -5647,6 +5683,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 41.91) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef14c151-6311-4a29-afb5-2fa4080c0bc7")
+	)
+	(wire
+		(pts
 			(xy 187.96 142.24) (xy 187.96 153.67)
 		)
 		(stroke
@@ -6032,9 +6078,9 @@
 		(at 139.7 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "007a4b94-53f7-4b52-bb43-0d5c31f07a98")
 		(property "Reference" "R19"
@@ -7050,9 +7096,9 @@
 		(at 147.32 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "35cf7f79-794c-4b28-9878-cd28e49603b1")
 		(property "Reference" "R18"
@@ -8383,6 +8429,74 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 153.67 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "890c3c53-09ef-4184-a3f7-699dce285ada")
+		(property "Reference" "JP10"
+			(at 153.67 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9b4f02-8760-422e-ab62-2b5a11db1568")
+		)
+		(pin "2"
+			(uuid "fc680cbb-c641-445d-99af-f1cd473135fa")
+		)
+		(instances
+			(project "AudioPowerBoard"
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/6c70e4a3-0509-489c-8c5f-252b27900c0f"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 200.66 49.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8451,7 +8565,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 139.7 44.45 90)
+		(at 139.7 44.45 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8476,7 +8591,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 141.605 39.37 0)
+			(at 137.795 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +8602,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 143.51 39.37 0)
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9258,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 139.7 27.94 90)
+		(at 139.7 27.94 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9168,7 +9284,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 141.605 22.86 0)
+			(at 137.795 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9295,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 143.51 22.86 0)
+			(at 135.89 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,8 +9905,8 @@
 		(at 165.1 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d59061df-cedf-4f92-ba9d-d9a8c7bcbe8d")
@@ -9936,9 +10052,9 @@
 		(at 157.48 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc543d4d-4e32-488a-9430-394c57278ecd")
 		(property "Reference" "R21"
@@ -10015,8 +10131,8 @@
 		(at 168.91 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ddcc2fb8-0f97-4a11-8dfe-ae4d1d067f05")
@@ -10160,8 +10276,8 @@
 		(at 195.58 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e3cbc87e-93da-4246-a826-9160f8a22c2f")
@@ -10507,7 +10623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -10534,7 +10650,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1779"
+		(property "LCSC" "C23733"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -10786,9 +10902,9 @@
 		(at 152.4 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f837a48c-5b38-4673-9092-4e4057eae609")
 		(property "Reference" "R20"
