@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "55d3eadd-644c-489f-b544-812b486e6ac4")
 	(paper "A4")
+	(title_block
+		(date "2025-03-04")
+		(rev "v0.1")
+		(company "//piernov")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

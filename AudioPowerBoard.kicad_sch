@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8cac44a1-bcd4-4356-b890-bed775abd56a")
 	(paper "A4")
+	(title_block
+		(title "AmbientCN3791 AnalogI2SMic")
+		(date "2025-03-04")
+		(rev "v0.1")
+		(company "//piernov")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers

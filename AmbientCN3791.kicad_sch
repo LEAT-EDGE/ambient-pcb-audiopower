@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "dd792613-9434-41b3-ad79-9aa00f1ff282")
 	(paper "A4")
+	(title_block
+		(date "2025-03-04")
+		(rev "v0.1")
+		(company "//piernov")
+	)
 	(lib_symbols
 		(symbol "CN3791:CN3791"
 			(exclude_from_sim no)
