@@ -6049,7 +6049,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a2dd01-ea36-4390-9223-94ebdf7a2aeb")
 		(property "Reference" "MK1"

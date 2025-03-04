@@ -328,8 +328,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "18d44dd2-f521-4eff-a039-20987851d125")
 		(property "Reference" "H4"
 			(at 135.89 111.7599 0)
@@ -460,8 +460,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "61b875c6-ef04-4a4e-9c53-67b5c5ace99d")
 		(property "Reference" "H2"
 			(at 100.33 111.7599 0)
@@ -526,8 +526,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b4cc853b-aac9-45d7-ae7e-cc900198e1ac")
 		(property "Reference" "H1"
 			(at 82.55 111.7599 0)
@@ -592,8 +592,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c0220b0b-bc41-49ba-8c3d-08bde0798633")
 		(property "Reference" "H3"
 			(at 118.11 111.7599 0)
