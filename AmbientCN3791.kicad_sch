@@ -2980,6 +2980,16 @@
 		)
 		(uuid "2bd0c640-0253-4fae-abcc-1b5d319553be")
 	)
+	(text "MPPT=1.205V"
+		(exclude_from_sim no)
+		(at 85.09 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4404f6c0-3aab-461c-8fd9-b5e8f154da12")
+	)
 	(text "SOLAR"
 		(exclude_from_sim no)
 		(at 26.416 38.608 0)
@@ -6717,7 +6727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 262.89 41.91 0)
 			(effects
 				(font
@@ -7784,7 +7794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 89.154 76.2 0)
 			(effects
 				(font
@@ -7820,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25768"
+		(property "LCSC" "C25744"
 			(at 93.98 74.93 0)
 			(effects
 				(font
@@ -8363,7 +8373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 26.67 41.91 0)
 			(effects
 				(font
@@ -8390,7 +8400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C163035"
 			(at 26.67 41.91 0)
 			(effects
 				(font
@@ -8399,7 +8409,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 26.67 41.91 0)
 			(effects
 				(font
@@ -8437,7 +8447,7 @@
 		(at 153.67 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "890c3c53-09ef-4184-a3f7-699dce285ada")
@@ -8618,6 +8628,15 @@
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 139.7 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,6 +9337,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 139.7 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "68213e0b-80ef-4624-8e60-cb2b77a75d26")
 		)
@@ -9584,7 +9612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 233.68 41.91 0)
 			(effects
 				(font
@@ -9611,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C163035"
 			(at 233.68 41.91 0)
 			(effects
 				(font
@@ -9620,7 +9648,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 233.68 41.91 0)
 			(effects
 				(font
@@ -10372,7 +10400,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "20k"
 			(at 102.87 81.2799 0)
 			(effects
 				(font
@@ -10381,7 +10409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224J_Horizontal"
 			(at 100.33 80.01 0)
 			(effects
 				(font
@@ -10408,7 +10436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C118911"
+		(property "LCSC" "C27974775"
 			(at 100.33 80.01 0)
 			(effects
 				(font
@@ -10697,7 +10725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "100k"
 			(at 88.138 65.278 0)
 			(effects
 				(font
@@ -10733,7 +10761,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25764"
+		(property "LCSC" "C25741"
 			(at 93.98 62.23 0)
 			(effects
 				(font

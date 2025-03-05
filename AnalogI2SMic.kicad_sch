@@ -6873,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 25.4 125.73 0)
 			(effects
 				(font
@@ -6900,7 +6900,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C163035"
 			(at 25.4 125.73 0)
 			(effects
 				(font
@@ -6909,7 +6909,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 25.4 125.73 0)
 			(effects
 				(font
@@ -10606,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 25.4 132.08 0)
 			(effects
 				(font
@@ -10633,7 +10633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C163035"
 			(at 25.4 132.08 0)
 			(effects
 				(font
@@ -10642,7 +10642,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 25.4 132.08 0)
 			(effects
 				(font
