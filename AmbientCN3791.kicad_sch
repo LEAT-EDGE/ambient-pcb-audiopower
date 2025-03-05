@@ -5,6 +5,7 @@
 	(uuid "dd792613-9434-41b3-ad79-9aa00f1ff282")
 	(paper "A4")
 	(title_block
+		(title "AmbientCN3791")
 		(date "2025-03-04")
 		(rev "v0.1")
 		(company "//piernov")

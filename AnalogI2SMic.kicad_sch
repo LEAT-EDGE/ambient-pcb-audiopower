@@ -5,6 +5,7 @@
 	(uuid "55d3eadd-644c-489f-b544-812b486e6ac4")
 	(paper "A4")
 	(title_block
+		(title "AnalogI2SMic")
 		(date "2025-03-04")
 		(rev "v0.1")
 		(company "//piernov")
