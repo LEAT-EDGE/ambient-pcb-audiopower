@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -227,6 +228,14 @@
   "erc": {
     "erc_exclusions": [
       [
+        "multiple_net_names|1879600|355600|72d85ed0-917d-419e-967f-3f65c79c9a51|30bfda6e-83ec-45ae-afe7-60e8e8de7091|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
+        "multiple_net_names|1879600|355600|90d5b6f6-0e62-4a01-83f7-a3c528e8acc4|30bfda6e-83ec-45ae-afe7-60e8e8de7091|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
         "multiple_net_names|1879600|355600|ddde6072-02a3-4a91-a265-dd5d7f6ef0cd|30bfda6e-83ec-45ae-afe7-60e8e8de7091|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
         ""
       ],
@@ -236,6 +245,10 @@
       ],
       [
         "multiple_net_names|1879600|406400|1b8fdc4c-9d62-40be-9761-0a589aa3890c|cefc6e5d-1e61-4bc6-a1dc-f8b839679eda|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
+        "multiple_net_names|1879600|406400|3b87aee9-acc9-4bb7-badd-1317a61a3646|cefc6e5d-1e61-4bc6-a1dc-f8b839679eda|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
         ""
       ],
       [
@@ -251,11 +264,27 @@
         ""
       ],
       [
+        "multiple_net_names|2006600|355600|f99c4419-22e1-4377-86bd-cbf1b50eb5d7|9e16e7a5-e3ac-4e9d-876d-6b106132e188|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
         "multiple_net_names|2006600|381000|23ac3d6b-1f1a-4ad9-8814-cde3519a5c47|47b57604-774d-4413-bab8-37d266d6dc03|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
         ""
       ],
       [
+        "multiple_net_names|2006600|381000|a171bfe9-ffe7-4d95-85d9-312f98c7a8ae|47b57604-774d-4413-bab8-37d266d6dc03|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
         "multiple_net_names|2006600|406400|072cdfef-ae84-41f5-9976-081bdb1f2695|be0254f2-2413-46f0-93d0-062977734e31|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
+        "multiple_net_names|2006600|406400|7139f3a2-df77-4839-a479-da4a497738ca|be0254f2-2413-46f0-93d0-062977734e31|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
+        ""
+      ],
+      [
+        "multiple_net_names|2006600|431800|930d1c62-e293-4511-9665-1e7e14d67011|f8f0dbd4-c010-4dbe-84d5-261c8dd09162|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913|/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913",
         ""
       ],
       [

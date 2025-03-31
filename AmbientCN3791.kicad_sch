@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AmbientCN3791")
-		(date "2025-03-04")
-		(rev "v0.1")
+		(date "2025-03-31")
+		(rev "v0.2")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -1404,21 +1404,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1527,7 +1525,7 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -5869,28 +5867,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
-		(shape bidirectional)
-		(at 191.77 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83040923-4a6c-45c7-bf49-ad0f88662716")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.4071 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CSOP"
 		(shape input)
 		(at 110.49 97.79 90)
@@ -5957,6 +5933,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 191.77 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca80bdaf-1616-48bb-9d70-c7f701017246")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.4071 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CSOP"
 		(shape input)
 		(at 194.31 33.02 90)
@@ -5970,28 +5968,6 @@
 		(uuid "caa50ba4-3caf-41f6-b8e1-fb0f4da32060")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.31 24.9548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SCL"
-		(shape output)
-		(at 191.77 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de4ad7b3-aefa-42b8-a2a8-60bb70dd564f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.2353 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,6 +6012,28 @@
 		(uuid "efc091fe-9697-4a1e-8334-7b4b2cb10b36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.12 24.4105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape output)
+		(at 191.77 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9fba425-fe4b-408a-b4ba-8c75e9a51c40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.2353 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +6726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 262.89 41.91 0)
 			(effects
 				(font
