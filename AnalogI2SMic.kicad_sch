@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AnalogI2SMic")
-		(date "2025-07-15")
-		(rev "v0.3")
+		(date "2026-03-11")
+		(rev "v0.5")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -6321,7 +6321,7 @@
 			)
 		)
 	)
-	(global_label "IN2L(P)entreeFiltre"
+	(global_label "MIC_LEFT"
 		(shape input)
 		(at 54.61 107.95 0)
 		(fields_autoplaced yes)
@@ -6333,7 +6333,7 @@
 		)
 		(uuid "fd232263-9216-4269-a1f0-26c1aeff41a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.6173 107.95 0)
+			(at 66.1223 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6416,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08a2dd01-ea36-4390-9223-94ebdf7a2aeb")
 		(property "Reference" "MK1"
@@ -7217,10 +7217,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24d9e3c0-18df-4083-af12-3c01a2ab3441")
 		(property "Reference" "J10"
-			(at 25.4 134.62 0)
+			(at 25.4 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +7227,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 25.4 132.08 0)
+			(at 25.654 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,9 +8691,9 @@
 		(at 52.07 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6317c3a1-2b4b-4bfb-ae61-6a942339562b")
 		(property "Reference" "R24"
@@ -9589,7 +9588,7 @@
 		(dnp yes)
 		(uuid "86c91fff-7d6e-4ac1-b126-66309d9e177a")
 		(property "Reference" "J6"
-			(at 22.225 123.19 0)
+			(at 24.13 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,7 +9596,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 30.734 120.904 0)
+			(at 27.178 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,7 +10978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -11161,10 +11160,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d01577a3-cada-4dbd-8f82-30abaf3a5cc0")
 		(property "Reference" "J11"
-			(at 25.4 140.97 0)
+			(at 25.4 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11170,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 25.4 138.43 0)
+			(at 25.4 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)

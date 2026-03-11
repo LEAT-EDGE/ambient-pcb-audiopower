@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AmbientCN3791 AnalogI2SMic")
-		(date "2025-07-15")
-		(rev "v0.3")
+		(date "2026-03-11")
+		(rev "v0.5")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -758,7 +758,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ba93fc48-81fa-4e97-a560-a06b51a482da")
-		(property "Sheetname" "Wake_Up"
+		(property "Sheetname" "AnalogWakeUp"
 			(at 208.28 52.6284 0)
 			(effects
 				(font

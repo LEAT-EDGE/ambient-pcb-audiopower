@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "CN3791")(type "KiCad")(uri "${KIPRJMOD}/CN3791.kicad_sym")(options "")(descr ""))
   (lib (name "tlv320adc3101")(type "Legacy")(uri "${KIPRJMOD}/tlv320adc3101.lib")(options "")(descr ""))
+  (lib (name "OPA391")(type "KiCad")(uri "${KIPRJMOD}/OPA391.kicad_sym")(options "")(descr ""))
 )
