@@ -7692,7 +7692,7 @@
 				)
 			)
 		)
-		(property "Value" "47µF/3A"
+		(property "Value" "47µH/3A"
 			(at 153.67 39.37 90)
 			(effects
 				(font
@@ -8041,6 +8041,15 @@
 		)
 		(property "LCSC" "C124643"
 			(at 92.71 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 92.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +8977,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG6030EP,115"
+		(property "Value" "PMEG6030ELPX"
 			(at 170.942 24.384 90)
 			(effects
 				(font
@@ -9004,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C456127"
+		(property "LCSC" "C2908821"
 			(at 171.45 41.91 90)
 			(effects
 				(font
@@ -9374,7 +9383,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG6030EP,115"
+		(property "Value" "PMEG6030ELPX"
 			(at 147.32 50.8 90)
 			(effects
 				(font
@@ -9410,7 +9419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C456127"
+		(property "LCSC" "C2908821"
 			(at 147.32 57.15 90)
 			(effects
 				(font

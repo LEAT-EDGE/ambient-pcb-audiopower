@@ -5802,6 +5802,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "249f318c-aeb8-4b50-8652-913f85634f01")
 		)
@@ -6534,6 +6543,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d68d236-6c88-4ba6-ba4a-55675f1e2bda")
 		)
@@ -6754,6 +6772,15 @@
 			)
 		)
 		(property "LCSC" "C576302"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 83.82 52.07 0)
 			(effects
 				(font
@@ -7287,6 +7314,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2618bf04-e4f0-4c3c-8ad5-85022cfd2e54")
 		)
@@ -7368,6 +7404,15 @@
 			)
 		)
 		(property "LCSC" "C128623"
+			(at 58.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 58.42 144.78 0)
 			(effects
 				(font
@@ -8261,6 +8306,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c50f9acb-352c-4b61-9990-1817163fe857")
 		)
@@ -8627,7 +8681,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C576302"
+		(property "LCSC" "C2871876"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 133.35 35.56 0)
 			(effects
 				(font
@@ -9391,6 +9454,15 @@
 			)
 		)
 		(property "LCSC" "C124643"
+			(at 147.32 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 147.32 53.34 90)
 			(effects
 				(font

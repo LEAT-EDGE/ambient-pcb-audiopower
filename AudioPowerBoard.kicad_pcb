@@ -1058,12 +1058,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C576302"
+		(property "LCSC" "C2871876"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cc4274c-6a47-4c8b-bdcb-76315093ec75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e57a5066-ddc8-468a-b677-4873c2818e58")
 			(effects
 				(font
 					(size 1 1)
@@ -2875,6 +2888,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2456b997-b08f-4998-a9f4-61da060223bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da0ce330-53d3-41b1-bf56-dff98c950cda")
 			(effects
 				(font
 					(size 1 1)
@@ -7018,6 +7044,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61b3cb2d-3934-4c34-9bb0-075156dd6e39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba93fc48-81fa-4e97-a560-a06b51a482da/b3e803b4-46c9-4755-b6c6-43493b0679f2")
 		(sheetname "/AnalogWakeUp/")
 		(sheetfile "Wake_Up.kicad_sch")
@@ -9327,7 +9366,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG6030EP,115"
+		(property "Value" "PMEG6030ELPX"
 			(at 0 2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9363,7 +9402,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C456127"
+		(property "LCSC" "C2908821"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11474,7 +11513,7 @@
 				)
 			)
 		)
-		(property "Value" "47µF/3A"
+		(property "Value" "47µH/3A"
 			(at 0 5.4 90)
 			(layer "F.Fab")
 			(uuid "4b5ab59f-c2fa-4ea1-b786-c54afa2761d2")
@@ -17033,6 +17072,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f9f7157-bb7a-42c8-b3a4-6e4d77e9b0f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/6c70e4a3-0509-489c-8c5f-252b27900c0f/580971e6-7992-4e4b-bc3e-6020b59b8238")
 		(sheetname "/AmbientCN3791/")
@@ -18228,6 +18280,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59a0487b-8b62-458b-a176-f93fddebc478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/ba93fc48-81fa-4e97-a560-a06b51a482da/f1a1f06b-a62b-4cc5-b600-b56234419904")
 		(sheetname "/AnalogWakeUp/")
@@ -18468,6 +18533,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a75c8b62-f0c5-4d71-b877-52ffe30d7355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc351ee1-9bb7-4479-8aee-0b9f1f0f2de6")
 			(effects
 				(font
 					(size 1 1)
@@ -19488,6 +19566,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdb9e59d-9bb7-43b7-bc83-0bee9b2c508f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a283e2a1-74b3-4c07-bbf0-058b21b66aba")
 			(effects
 				(font
 					(size 1 1)
@@ -22882,6 +22973,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a29a06f-df85-41d5-b947-154b60d883c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba93fc48-81fa-4e97-a560-a06b51a482da/5efc0f2b-edb5-4337-8823-3c1607d41d99")
 		(sheetname "/AnalogWakeUp/")
 		(sheetfile "Wake_Up.kicad_sch")
@@ -25186,6 +25290,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0cab8e3-db55-4bc8-aebf-af8a11c888fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba93fc48-81fa-4e97-a560-a06b51a482da/81d35185-a208-47a4-882e-719cd917c16f")
 		(sheetname "/AnalogWakeUp/")
 		(sheetfile "Wake_Up.kicad_sch")
@@ -25572,7 +25689,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG6030EP,115"
+		(property "Value" "PMEG6030ELPX"
 			(at 0 2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25608,7 +25725,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C456127"
+		(property "LCSC" "C2908821"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
