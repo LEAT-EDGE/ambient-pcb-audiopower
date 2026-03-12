@@ -1733,6 +1733,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -1864,192 +1989,6 @@
 				)
 				(pin passive line
 					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -3474,12 +3413,6 @@
 		(uuid "5a4f9557-607d-4c68-9ca6-91f84a8026f5")
 	)
 	(junction
-		(at 52.07 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "636762ac-105f-416f-bf07-311c0c4c9ebb")
-	)
-	(junction
 		(at 251.46 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3698,10 +3631,6 @@
 	(no_connect
 		(at 29.21 113.03)
 		(uuid "0be546f3-c894-4658-865a-0b9d59737a52")
-	)
-	(no_connect
-		(at 83.82 97.79)
-		(uuid "90b934e7-1c46-44f1-a3fe-cc2737d31a5c")
 	)
 	(no_connect
 		(at 29.21 107.95)
@@ -4019,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 99.06) (xy 52.07 97.79)
+			(xy 52.07 92.71) (xy 52.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4439,16 +4368,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 46.99 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6224e7-aa77-41c1-9e50-436ca531bda1")
-	)
-	(wire
-		(pts
 			(xy 40.64 125.73) (xy 30.48 125.73)
 		)
 		(stroke
@@ -4466,16 +4385,6 @@
 			(type default)
 		)
 		(uuid "5f08a1a8-d11c-4867-b496-2c461d790d5a")
-	)
-	(wire
-		(pts
-			(xy 63.5 113.03) (xy 80.01 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607abdea-f06f-4ed9-93e4-161c1c5a7ba3")
 	)
 	(wire
 		(pts
@@ -4576,6 +4485,16 @@
 			(type default)
 		)
 		(uuid "6c841d7d-66b7-4d4a-875a-3ae7fa6a4d1a")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 80.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9d0046-aa42-425e-922f-ef99d6a173d9")
 	)
 	(wire
 		(pts
@@ -4926,6 +4845,16 @@
 			(type default)
 		)
 		(uuid "948cca41-6123-4731-b7ca-c3d501137c1a")
+	)
+	(wire
+		(pts
+			(xy 46.99 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e0fe34-12ea-4d8e-a9f4-5c2ef2b1c063")
 	)
 	(wire
 		(pts
@@ -5759,7 +5688,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 113.03) (xy 52.07 113.03)
+			(xy 52.07 113.03) (xy 57.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5806,16 +5735,6 @@
 			(type default)
 		)
 		(uuid "fa4b0c39-4c8b-411c-8900-1d93c5bbbdde")
-	)
-	(wire
-		(pts
-			(xy 52.07 92.71) (xy 52.07 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0b070a-903f-4d27-adaa-f4cc1ffeaf06")
 	)
 	(wire
 		(pts
@@ -8621,6 +8540,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 59.69 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "537356ba-0bcf-4ed4-a8e7-5e2e87cd05b0")
+		(property "Reference" "R37"
+			(at 59.69 107.95 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 59.69 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 59.69 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cc63e8f-676e-4ebd-b8d6-73d45322d5e5")
+		)
+		(pin "1"
+			(uuid "ae87c932-6f29-4079-8650-b426e25f2b6f")
+		)
+		(instances
+			(project ""
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 62.23 0)
 		(unit 1)
@@ -10948,73 +10944,6 @@
 			(project "AudioPowerBoard"
 				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 59.69 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8686a1e-2bfb-42f5-b9c8-d91193921835")
-		(property "Reference" "JP10"
-			(at 62.992 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 72.644 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40b0f01b-b147-4e87-88fe-236c99387c02")
-		)
-		(pin "2"
-			(uuid "ed166ae8-92f6-4abc-8799-656186e983f7")
-		)
-		(instances
-			(project ""
-				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
-					(reference "JP10")
 					(unit 1)
 				)
 			)

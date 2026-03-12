@@ -52,7 +52,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|175637500|120450000|620f5d33-27ae-42d3-8cb5-400230338b9b|5f254d74-2109-45fa-8c0e-62c99f74c193|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|180175000|100950000|620f5d33-27ae-42d3-8cb5-400230338b9b|056956b4-195b-4463-92dd-aded2086cf74|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -643,6 +652,18 @@
       {
         "netclass": "PWR",
         "pattern": "*FB1*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3VSB*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+1.5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*C45*"
       }
     ]
   },

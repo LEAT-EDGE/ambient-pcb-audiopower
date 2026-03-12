@@ -5,4 +5,6 @@
   (lib (name "QFN_drill0.3")(type "KiCad")(uri "${KIPRJMOD}/QFN_drill0.3.pretty")(options "")(descr ""))
   (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name "Jack_3.5mm")(type "KiCad")(uri "${KIPRJMOD}/Jack_3.5mm.pretty")(options "")(descr ""))
+  (lib (name "OPA391")(type "KiCad")(uri "${KIPRJMOD}/OPA391.pretty")(options "")(descr ""))
+  (lib (name "RT9080-30GJ5")(type "KiCad")(uri "${KIPRJMOD}/RT9080-30GJ5.pretty")(options "")(descr ""))
 )
