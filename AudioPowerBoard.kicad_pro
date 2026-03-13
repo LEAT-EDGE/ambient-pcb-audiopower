@@ -41,10 +41,10 @@
           "height": 0.5,
           "width": 0.5
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -58,7 +58,15 @@
           ""
         ],
         [
-          "starved_thermal|180175000|100950000|620f5d33-27ae-42d3-8cb5-400230338b9b|056956b4-195b-4463-92dd-aded2086cf74|F.Cu",
+          "text_height|171348400|118313200|7025086c-c7a2-4550-9fdb-72e38a78a22b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|175260000|118364000|3f8b96af-0f22-4f7c-8d38-1187e5e87de8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|177850800|118313200|cf1a6247-bea0-4c84-b85c-88efe9d9e923|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
