@@ -4138,6 +4138,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 71.12) (xy 110.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee33399-522b-424e-aa8f-0ebc3af4ab1c")
+	)
+	(wire
+		(pts
 			(xy 19.05 87.63) (xy 19.05 88.9)
 		)
 		(stroke
@@ -5468,7 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 110.49 71.12)
+			(xy 120.65 71.12) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5608,6 +5618,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 68.58) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecb44f1-999d-4ac6-9b87-6135998c158b")
+	)
+	(wire
+		(pts
 			(xy 52.07 130.81) (xy 130.81 130.81)
 		)
 		(stroke
@@ -5738,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 120.65 68.58)
+			(xy 107.95 68.58) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6993,6 +7013,82 @@
 			(project "AudioPowerBoard"
 				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "1c50b141-01dc-46da-b42c-dc8548945c01")
+		(property "Reference" "R46"
+			(at 115.57 74.676 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 115.57 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 115.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d557c515-3bd1-4973-a341-38585b7d7620")
+		)
+		(pin "1"
+			(uuid "5b699997-d457-4c41-b505-f9411348a8d0")
+		)
+		(instances
+			(project "AudioPowerBoard"
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -9672,6 +9768,82 @@
 			(project "AudioPowerBoard"
 				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "91832630-0a09-47d7-aee4-a3b1ea6db773")
+		(property "Reference" "R48"
+			(at 115.57 65.278 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 115.57 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 115.57 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e733294-bf66-4770-b677-861f8aa72d23")
+		)
+		(pin "1"
+			(uuid "4c84d3f0-3367-46e4-9995-8707ba37f32e")
+		)
+		(instances
+			(project "AudioPowerBoard"
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
+					(reference "R48")
 					(unit 1)
 				)
 			)
