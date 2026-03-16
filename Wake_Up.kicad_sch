@@ -2215,7 +2215,7 @@
 	(text_box "Monostable multivibrator"
 		(exclude_from_sim no)
 		(at 138.43 93.98 0)
-		(size 91.44 60.96)
+		(size 107.95 60.96)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2435,6 +2435,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d1c2fcf-22be-4885-801e-e9b145fe2d63")
+	)
+	(junction
+		(at 264.16 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c08322-4411-4f0b-88a2-03141fdf0ba0")
 	)
 	(junction
 		(at 39.37 134.62)
@@ -2762,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 116.84) (xy 209.55 116.84)
+			(xy 234.95 116.84) (xy 227.33 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2869,6 +2875,16 @@
 			(type default)
 		)
 		(uuid "22c5a53e-efda-48f2-a0ae-d61ab90680b6")
+	)
+	(wire
+		(pts
+			(xy 264.16 55.88) (xy 269.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237e8f3d-e288-450a-84b9-aec211c5f085")
 	)
 	(wire
 		(pts
@@ -3042,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 44.45) (xy 283.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43582cae-2458-4ea4-912a-d6bc2d916999")
+	)
+	(wire
+		(pts
 			(xy 77.47 102.87) (xy 86.36 102.87)
 		)
 		(stroke
@@ -3159,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "51a9db96-4eaf-4e2f-bc54-80e1bc0f469d")
+	)
+	(wire
+		(pts
+			(xy 222.25 116.84) (xy 209.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5321a6f0-ef69-488b-953e-3d5edc1f72c1")
 	)
 	(wire
 		(pts
@@ -3662,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 44.45) (xy 283.21 44.45)
+			(xy 251.46 44.45) (xy 264.16 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4022,6 +4058,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 53.34) (xy 264.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33c91d1-658b-4cd8-90f0-30e009b99ea9")
+	)
+	(wire
+		(pts
 			(xy 209.55 99.06) (xy 209.55 116.84)
 		)
 		(stroke
@@ -4222,6 +4268,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 48.26) (xy 264.16 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf12d98-125d-4fe4-a33d-7ed8b7d120a1")
+	)
+	(wire
+		(pts
 			(xy 72.39 144.78) (xy 87.63 144.78)
 		)
 		(stroke
@@ -4304,7 +4360,29 @@
 	)
 	(global_label "GPIO2"
 		(shape input)
-		(at 218.44 116.84 0)
+		(at 269.24 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32190864-e2a3-427d-a05c-f2a44684bf44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 234.95 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4314,7 +4392,7 @@
 		)
 		(uuid "4e2a9fb7-538b-4d22-91dc-a1dabf3c5bb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.11 116.84 0)
+			(at 243.62 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,6 +4830,82 @@
 			(project "AudioPowerBoard"
 				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/ba93fc48-81fa-4e97-a560-a06b51a482da"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0e095a0e-4b87-4c5d-b1f3-538daa3cd9af")
+		(property "Reference" "R50"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 267.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 264.16 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a80c3d2-92e1-4964-8835-371040157171")
+		)
+		(pin "1"
+			(uuid "35cfa0d1-abff-4188-b82e-d10316ba281a")
+		)
+		(instances
+			(project "AudioPowerBoard"
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/ba93fc48-81fa-4e97-a560-a06b51a482da"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -7263,7 +7417,7 @@
 		(dnp no)
 		(uuid "81d35185-a208-47a4-882e-719cd917c16f")
 		(property "Reference" "U6"
-			(at 256.54 50.8702 0)
+			(at 250.444 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7425,7 @@
 			)
 		)
 		(property "Value" "OPA379AIDCK"
-			(at 256.54 48.3302 0)
+			(at 250.444 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,6 +8016,83 @@
 			(project "AudioPowerBoard"
 				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/ba93fc48-81fa-4e97-a560-a06b51a482da"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 224.79 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a000d97-de2f-415b-bd4c-7f4d6782be31")
+		(property "Reference" "R49"
+			(at 224.79 111.76 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 224.79 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 224.79 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbcb2f64-0a9c-4479-ac86-a1ade265692f")
+		)
+		(pin "1"
+			(uuid "ba568ecf-d2ee-4aed-b9c7-baf9eb6f0db1")
+		)
+		(instances
+			(project "AudioPowerBoard"
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/ba93fc48-81fa-4e97-a560-a06b51a482da"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9196,7 +9427,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 265.43 43.688 0)
+			(at 265.684 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
