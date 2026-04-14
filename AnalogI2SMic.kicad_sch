@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AnalogI2SMic")
-		(date "2026-03-11")
-		(rev "v0.5")
+		(date "2026-04-14")
+		(rev "v0.6")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -2061,7 +2061,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2072,7 +2072,7 @@
 				)
 			)
 			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3683,6 +3683,12 @@
 		(uuid "5a4f9557-607d-4c68-9ca6-91f84a8026f5")
 	)
 	(junction
+		(at 52.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647b4f2f-076c-4d49-9e79-4902f4a65f10")
+	)
+	(junction
 		(at 251.46 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3699,12 +3705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad231bc-8314-4ae0-b380-8c2a4383f719")
-	)
-	(junction
-		(at 52.07 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aee3851-b304-430a-9174-083be8d45dc0")
 	)
 	(junction
 		(at 19.05 81.28)
@@ -3741,12 +3741,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c26998d-c09b-491e-b790-26dedc89e752")
-	)
-	(junction
-		(at 40.64 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "924b1449-3ef6-4e8f-a285-a43a61cc3dbb")
 	)
 	(junction
 		(at 143.51 63.5)
@@ -3819,6 +3813,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be4cc0c5-28c8-4048-aba8-4967239e06eb")
+	)
+	(junction
+		(at 52.07 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be5bdc0f-0396-4764-ad39-dbbe93eb4bce")
 	)
 	(junction
 		(at 256.54 114.3)
@@ -3968,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 115.57) (xy 40.64 118.11)
+			(xy 40.64 115.57) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4015,6 +4015,16 @@
 			(type default)
 		)
 		(uuid "0df9ec90-6ac4-44e7-bda4-24cf9caf6548")
+	)
+	(wire
+		(pts
+			(xy 31.75 118.11) (xy 31.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e35eba6-0dca-4c16-8026-77796167f3bb")
 	)
 	(wire
 		(pts
@@ -4218,16 +4228,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 52.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29071c48-9086-4afc-9bad-86a16e93cd36")
-	)
-	(wire
-		(pts
 			(xy 124.46 95.25) (xy 177.8 95.25)
 		)
 		(stroke
@@ -4368,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 54.61 107.95)
+			(xy 52.07 107.95) (xy 55.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4768,7 +4768,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 113.03) (xy 80.01 113.03)
+			(xy 72.39 113.03) (xy 80.01 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4988,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8402aed1-b137-4b1e-b6be-c434015a4ec5")
+	)
+	(wire
+		(pts
 			(xy 200.66 38.1) (xy 228.6 38.1)
 		)
 		(stroke
@@ -5098,6 +5108,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 118.11) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928e413a-75bd-4df6-965b-a9c34007ccfd")
+	)
+	(wire
+		(pts
 			(xy 138.43 73.66) (xy 143.51 73.66)
 		)
 		(stroke
@@ -5128,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 97.79) (xy 83.82 97.79)
+			(xy 46.99 97.79) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5598,6 +5618,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 97.79) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97e26e8-28f6-4e1f-8f57-77392b19cf7c")
+	)
+	(wire
+		(pts
 			(xy 118.11 58.42) (xy 118.11 59.69)
 		)
 		(stroke
@@ -5658,16 +5688,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 118.11) (xy 40.64 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce2f27da-7439-4c50-b4bd-7fa899e2940b")
-	)
-	(wire
-		(pts
 			(xy 203.2 48.26) (xy 200.66 48.26)
 		)
 		(stroke
@@ -5705,16 +5725,6 @@
 			(type default)
 		)
 		(uuid "d396a395-df46-4ae2-9ba5-78a4cfc85949")
-	)
-	(wire
-		(pts
-			(xy 40.64 118.11) (xy 40.64 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4677ad8-2c67-49b2-9951-a658c3b2900b")
 	)
 	(wire
 		(pts
@@ -5978,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 113.03) (xy 57.15 113.03)
+			(xy 52.07 113.03) (xy 67.31 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6566,7 +6576,7 @@
 	)
 	(global_label "MIC_LEFT"
 		(shape input)
-		(at 54.61 107.95 0)
+		(at 55.88 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6576,7 +6586,7 @@
 		)
 		(uuid "fd232263-9216-4269-a1f0-26c1aeff41a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1223 107.95 0)
+			(at 67.3923 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7641,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2330c83e-2859-47d3-bae8-dd5a45a84cfb")
 		(property "Reference" "TP1"
@@ -8535,7 +8545,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b88fabb-2476-4a84-88f4-21e59e51de79")
@@ -8581,7 +8591,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 245.11 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9045,7 +9055,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb1b0d4-861f-4825-ba35-12f8d5c002b5")
@@ -9091,7 +9101,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 245.11 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9369,18 +9379,17 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 113.03 90)
+		(at 69.85 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "537356ba-0bcf-4ed4-a8e7-5e2e87cd05b0")
 		(property "Reference" "R37"
-			(at 59.69 107.95 90)
+			(at 69.85 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9390,7 +9399,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 59.69 110.49 90)
+			(at 69.85 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9400,7 +9409,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 59.69 113.03 0)
+			(at 69.85 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9411,7 +9420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 113.03 0)
+			(at 69.85 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9422,7 +9431,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 59.69 113.03 0)
+			(at 69.85 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9433,7 +9442,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 59.69 113.03 90)
+			(at 69.85 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10233,7 +10242,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2649307"
+		(property "LCSC" "C21189"
+			(at 245.11 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternate LCSC" "C2649307"
 			(at 245.11 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -10267,7 +10287,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7c791c34-c5e2-46af-95af-1fac32f7f681")
 		(property "Reference" "TP3"
@@ -10889,6 +10909,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 31.75 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "923607dc-38f8-43f4-b665-b188644b4daf")
+		(property "Reference" "#PWR034"
+			(at 31.75 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 31.75 123.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 31.75 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e700e8fc-2737-49d3-8317-bf7b78fcc2db")
+		)
+		(instances
+			(project "AudioPowerBoard"
+				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 236.22 31.75 0)
 		(unit 1)
@@ -11069,84 +11167,6 @@
 			(project "AudioPowerBoard"
 				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 52.07 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97f25d69-5cfd-4f2b-98aa-6c7fe3cc2e4c")
-		(property "Reference" "#PWR050"
-			(at 52.07 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 52.07 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 52.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a4f36d5-3c72-4e1a-8a8f-40f827920588")
-		)
-		(instances
-			(project "AudioPowerBoard"
-				(path "/8cac44a1-bcd4-4356-b890-bed775abd56a/15c6fc86-e615-4d44-9123-93c412b00913"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12741,7 +12761,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d41869-95ed-4e92-961f-db464bbbf2a8")
@@ -12787,7 +12807,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 245.11 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12900,7 +12920,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d778eec2-5896-4e91-b39e-57db7d4958ae")
 		(property "Reference" "TP2"
@@ -13508,7 +13528,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6a32e33-c2ac-429b-acd9-d4b483626816")
@@ -13554,7 +13574,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 245.11 102.87 0)
 			(hide yes)
 			(show_name no)
