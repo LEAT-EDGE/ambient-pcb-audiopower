@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AmbientCN3791")
-		(date "2026-04-14")
-		(rev "v0.6")
+		(date "2026-05-06")
+		(rev "v0.7")
 		(company "//piernov")
 	)
 	(lib_symbols
