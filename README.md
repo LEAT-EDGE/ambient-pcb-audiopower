@@ -3,8 +3,8 @@
 Audio capture and energy management daughterboard PCB for the [Ambient project](https://github.com/LEAT-EDGE/ambient).
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="png/AudioPowerBoard_front.png" alt="Mainboard front" width="400">
-    <img src="png/AudioPowerBoard_back.png" alt="Mainboard back" width="400">
+    <img src="webp/front.webp" alt="Daughterboard front" width="400">
+    <img src="webp/back.webp" alt="Daughterboard back" width="400">
 </div>
 
 ## Main features
@@ -22,6 +22,7 @@ Audio capture and energy management daughterboard PCB for the [Ambient project](
 - `pdf/`: Schematics generated from the KiCad project
 - `png/`: Screenshots of the KiCad 3D render
 - `production/`: Gerbers, BOM and placement files generated from the KiCad project (compatible with JLCPCB manufacturing and assembly)
+- `webp/`: Pictures of the actual board
 
 ## Connectors and headers
 
